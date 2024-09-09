@@ -1,0 +1,48 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+
+h3 {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif ;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+ .usuario{
+    text-align: center;
+}
+.password{
+    text-align: center;
+    padding: 15px;
+}
+
+.button {
+    text-align: center;
+}
+
+.usuario input{
+    width: 170px;
+    height: 20px;
+}
+
+.password input{
+    width: 170px;
+    height: 20px;
+}
+
+.usuario{
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+.password{
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+p {
+    text-align: center;
+}
