@@ -1,5 +1,5 @@
 <?php
-    defined('CONTROL')  or die('Acesso Negado!')
+defined('CONTROL') or die('Acesso negado!');
 ?>
 
 <!DOCTYPE html>
@@ -10,6 +10,11 @@
     <title>Home</title>
 </head>
 <body>
-    <H1>estou no Home</H1>
+
+    <?php require('nav.php') ?>
+    <h3>Bem-vindo à aplicação!</h3>
+    
+    <p>[conteúdo]</p>
 </body>
 </html>
+
