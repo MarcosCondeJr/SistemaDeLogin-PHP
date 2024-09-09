@@ -24,8 +24,14 @@ if(!empty($usuario_logado) && $rota = 'login'){
 //analise de rotas
 $rotas = [
     'login' => 'login.php',
-    'home' => 'home.php'
-];
+    'home' => 'home.php',
+    'logout' => 'logout.php',
+    'page1' => 'page1.php',
+    'page2' => 'page2.php'
+ ];
+
+//
+
 
 //verifica se existe uma rota, se não exibe a mensagem
 if(!array_key_exists($rota,$rotas)){
